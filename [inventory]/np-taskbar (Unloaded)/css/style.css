@@ -1,0 +1,52 @@
+@import "compass/css3";
+.nicesexytext {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    letter-spacing:0.1em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    color:white;
+    width:100%;
+    opacity:0.9;
+    margin-top:-9%;
+}
+
+.divwrap {
+    display:none;
+    margin-left:auto;
+    margin-right:auto;
+    width:15%;
+    height:3%;
+    margin-top:50%;
+    color:white;
+    background:rgba(0, 0, 0, 0.452);
+    border-width: 2px;
+    border-style:solid;
+    border-color: white;
+}
+
+.progress {
+  width: 100%;
+  height: 99%;
+}
+
+.progress-wrap {
+  height: 99%;
+  overflow: hidden;
+  position: relative;
+  border: 10% solid white;
+}
+
+#progress-bar {
+  height: 99%;
+  overflow: hidden;
+  position: relative;
+  background:#FF0000;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width:5%;
+  border: 10% solid white;
+}
