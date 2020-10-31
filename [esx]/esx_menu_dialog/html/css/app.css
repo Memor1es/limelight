@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#controls {
+  font-family   : Roboto;
+  font-size     : 3em;
+  color         : #ECEFF1;
+  position      : absolute;
+  bottom        : 40;
+  right         : 40;
+  
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000
+  ;
+}
+
+.controls {
+  display: none;
+}
+
+.dialog {
+
+  font-family     : Roboto;
+  font-weight     : bold;
+  font-size       : 20;  
+  background-color: #ECEFF1;
+  color           : #ECEFF1;
+  position        : absolute;
+  overflow        : hidden;
+  top             : 50%;
+  left            : 50%;
+  width           : 600px;
+  height          : 104px;
+  border-radius   : 5px;
+  
+  transform       : translate(-50%, -50%);
+}
+
+.dialog.big {
+  height: 200px;
+}
+
+.dialog .head {
+  background-image: linear-gradient(to right, #0D47A1 , #1E88E5);
+  text-align      : center;
+  height          : 40px;
+}
+
+.dialog .head span:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.dialog input[type="text"] {
+  width : 100%;
+  height: 32px;
+}
+
+.dialog textarea {
+  width : 100%;
+  height: 128px;
+}
+
+.dialog button[name="submit"] {
+  width : 75%;
+  height: 32px;
+}
+
+.dialog button[name="cancel"] {
+  width : 25%;
+  height: 32px;
+}
