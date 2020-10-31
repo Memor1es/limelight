@@ -1,0 +1,2 @@
+Multichar = {}
+Multichar.Resource = GetCurrentResourceName()

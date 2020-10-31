@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MF Multi Character</title>
+  <style type="text/css">
+    body {
+      display: block;
+    }
+
+    .hidden {
+      pointer-events: none;
+      opacity: 0.0;
+    }
+  </style>
+</head>
+<body>
+  <script type="text/javascript">
+    Show = function() {
+      document.body.style.display = "block";
+    }
+
+    Hide = function() {
+      document.body.style.display = "none";
+    }
+
+    ShowElement = function(e) {
+      e.classList.remove("hidden");
+    }
+
+    HideElement = function(e) {
+      e.classList.add("hidden");
+    }
+
+    RemoveChildren = function(e) {
+      var child = e.lastChild;
+      while (child) {
+        child.remove();
+        child = e.lastChild;
+      }
+    }
+
+    var debug = true;
+    if (debug == true) {
+      Show();
+      ShowElement(document.getElementById('character-selector'));
+      ShowElement(document.getElementById('character-info'));
+      ShowElement(document.getElementById('character-registration'));
+    }
+  </script>
+</body>
+</html>
