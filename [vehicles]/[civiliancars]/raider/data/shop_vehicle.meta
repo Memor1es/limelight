@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+	<Vehicles>
+		<Item>
+			<lockHash>CU_VEH_REBEL4</lockHash>
+			<modelNameHash>Rebel4</modelNameHash>
+			<cost value="100"/>
+			<textLabel>REBEL4</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+		<Item>
+			<lockHash>CU_VEH_REBEL5</lockHash>
+			<modelNameHash>Rebel5</modelNameHash>
+			<cost value="100"/>
+			<textLabel>REBEL5</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+		<Item>
+			<lockHash>CU_VEH_REBEL6</lockHash>
+			<modelNameHash>Rebel5</modelNameHash>
+			<cost value="100"/>
+			<textLabel>REBEL5</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+		<Item>
+			<lockHash>CU_VEH_RAIDER</lockHash>
+			<modelNameHash>Raider</modelNameHash>
+			<cost value="100"/>
+			<textLabel>RAIDER</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+	</Vehicles>	
+</ShopVehicleDataArray>
