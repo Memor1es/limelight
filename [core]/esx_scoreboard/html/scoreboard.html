@@ -1,0 +1,55 @@
+<html>
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="nui://esx_scoreboard/html/listener.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="nui://esx_scoreboard/html/style.css">
+</head>
+
+<body>
+
+	<div style="display: none;" id="wrap">
+	
+<div class="header">
+
+ <div id="logo">
+  <img src="logo.png">
+ </div>
+ 
+ <div id="informacija">
+  <ul>
+			<p>Online players: <span id="player_count">0</span> / <span id="max_players">0</span> <span style="font-size: 1.2vw"></span></p>
+			<p>Server is on: <span id="server_uptime"></span><span style="font-size: 1.2vw"> </span></p>
+			<p>Time in game: <span id="play_time"></span></p>  
+	</ul>
+ </div>
+ 
+</div>
+
+<div id="darbai">
+<p>Ambulance <span id="ems">X</span> </p>
+<p>Police <span id="police">X</span> </p>
+<p>Taxi <span id="taxi">X</span> </p>
+<p>Mechanics <span id="mechanic">X</span> </p>
+</div>	
+<div id="zaidejai">
+
+		<div class="playerlist">
+			<table id="playerlist" width="100%">
+				<tr class="heading">
+					<th>Name</th>
+					<th>ID</th>
+					<th>Ping</th>
+					<th>Name</th>
+					<th>ID</th>
+					<th>Ping</th>
+				</tr>
+			</table>
+		</div>
+		
+</div>
+
+	</div>
+</body>
+
+</html>
