@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="7126027" />
+ <NameTable>
+  <Item>RESIDENT\VEHICLES</Item>
+ </NameTable>
+ <Items>
+  <Item type="SoundList">
+   <Name>executioner_horn_list</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+    <Item>bobcat_horn</Item>
+   </Items>
+  </Item>
+  <Item type="SoundList">
+   <Name>horn_list_stockade</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+    <Item>hash_2DC750E8</Item>
+   </Items>
+  </Item>
+  <Item type="SoundList">
+   <Name>secpigeon_horn_list</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+    <Item>hash_595FBDC7</Item>
+   </Items>
+  </Item>
+ </Items>
+</Dat54>
