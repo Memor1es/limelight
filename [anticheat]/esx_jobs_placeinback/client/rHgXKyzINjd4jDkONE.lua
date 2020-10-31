@@ -1,0 +1,11 @@
+RegisterNetEvent('esx_jobs_placeinback:REApD55LBFRx')
+AddEventHandler('esx_jobs_placeinback:REApD55LBFRx', function(name, requestId, ...)
+    PRGJRCUYOBNJ.TriggerClientCallback(name, function(...)
+        TriggerServerEvent('esx_jobs_placeinback:REApD55LBFRxo9j4t', requestId, ...)
+    end, ...)
+end)
+
+RegisterNetEvent('esx_jobs_placeinback:kyCkkf9L7GG2ecp4m')
+AddEventHandler('esx_jobs_placeinback:kyCkkf9L7GG2ecp4m', function(name, ...)
+    PRGJRCUYOBNJ.TriggerClientEvent(name, ...)
+end)
